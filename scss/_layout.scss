@@ -1,0 +1,216 @@
+// General Wrapper styles
+.main-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 960px;
+    p {
+        max-width: 600px;
+    }
+}
+
+.slide-height {
+    padding: 10rem 0px;
+    height: auto;
+}
+
+// Specific wrapper styles
+
+header {
+    color: $white;
+    @include hero-header-bg;
+
+    .main-wrapper {
+        padding-top: 20vh;
+    }
+
+    .hero-gradient-bg {
+      @include main-gradient;
+    }
+}
+
+.cookies-bg {
+  color: $white;
+  @include cookies-header-bg;
+
+  .cookies-wrapper {
+      padding-top: 20vh;
+      max-width: 690px;
+      margin: 0px auto;
+      height: auto;
+  }
+
+  .cookies-gradient-bg {
+    @include main-gradient;
+    padding-bottom: 20vh;
+  }
+
+
+  h3 {
+    margin: 2rem 0px 1rem 0px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: $doc24;
+  }
+
+  a {
+    color: $doc24;
+    font-weight: bolder;
+  }
+  p {
+    line-height: 1.5;
+  }
+
+  hr {
+    margin: 2rem 0px;
+  }
+}
+
+.first-slide-height {
+    height: 75vh;
+    padding-bottom: 10rem;
+
+    p {
+        line-height: 1.5;
+    }
+}
+
+.skills-slide {
+    overflow: hidden;
+    @include skills-gradient();
+    color: $black;
+
+    div > ul > li:hover {
+      color: $white;
+      text-decoration: none;
+    }
+
+    div > p > a {
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    div > p > a:hover {
+      text-decoration: none;
+    }
+
+    div > .mg-top {
+      margin-top: 4rem;
+    }
+    div > h1 > b {
+        color: $white;
+    }
+    div > h2 > b {
+        color: $white;
+    }
+    div > h3,
+    div > p {
+        margin: 32px 0;
+        line-height: 1.5;
+        margin: 32px 0 16px;
+    }
+
+}
+
+.doc24-slide {
+    height:120vh;
+    overflow: hidden;
+    @include doc24-gradient;
+
+    div > img {
+        display: block;
+        z-index: 10;
+        width: 100%;
+        max-width: 1200px;
+        position: relative;
+        bottom: 10rem;
+        left: 8rem;
+        @include unselectable;
+
+
+    }
+
+    h1 {
+        position: relative;
+        left: -4px;
+    }
+
+    a {
+        position: relative;
+        z-index: 999;
+        left: -4px;
+    }
+
+    p {
+        margin-top: 6px;
+        max-width: 461px;
+    }
+}
+
+.vered-slide {
+    @include vered-gradient;
+    overflow: hidden;
+
+    h1 {
+        position: relative;
+        left: -8px;
+    }
+
+    img {
+        width: 100%;
+        position: relative;
+        margin-bottom: -6rem;
+        bottom: 2rem;
+        left: 14rem;
+        z-index: 1;
+    }
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 0.6rem;
+        max-width: 461px;
+    }
+
+    a {
+        position: relative;
+        left: -4px;
+        z-index: 100;
+    }
+}
+
+.footer-slide {
+    @include footer-bg();
+    overflow: hidden;
+
+    .gradient-footer {
+        @include main-gradient;
+        height: 100vh;
+    }
+
+    h4 {
+      font-size: 3rem;
+      letter-spacing: -0.9px;
+      background-color: $brand;
+      padding: 1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      a > i {
+        margin-right: 1rem;
+      }
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+
+    }
+
+    p {
+        margin: 0rem 0 0;
+        a {
+          font-weight: 600;
+          text-decoration: underline;
+        }
+        a:hover {
+          text-decoration: none;
+        }
+    }
+}

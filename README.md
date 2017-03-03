@@ -1,2 +1,2 @@
-# alejandrodelpozo.com
-My own portfolio online.
+# Portfolio
+This is my own web portfolio 
