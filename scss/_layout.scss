@@ -26,6 +26,11 @@ header {
     .hero-gradient-bg {
       @include main-gradient;
     }
+
+    h1 {
+      max-width: 860px;
+      font-weight: 100;
+    }
 }
 
 .cookies-bg {
@@ -191,7 +196,7 @@ header {
       letter-spacing: -0.9px;
       background-color: $brand;
       padding: 1rem;
-      font-weight: 600;
+      font-weight: 300;
       margin-bottom: 1rem;
       a > i {
         margin-right: 1rem;
@@ -200,6 +205,7 @@ header {
 
     h2 {
         margin-bottom: 1rem;
+        font-size: 2rem;
 
     }
 
