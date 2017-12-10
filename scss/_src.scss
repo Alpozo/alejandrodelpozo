@@ -1,0 +1,39 @@
+// @mixin hero-header-bg() {
+//   background-image: url(../src/img/bg/hero-header-bg.jpg);
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+// }
+
+// @mixin cookies-header-bg() {
+//   background-image: url(../src/img/bg/cookies-bg.jpg);
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+// }
+
+// @mixin footer-bg() {
+//   background-image: url(../src/img/bg/footer-bg.jpg);
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+// }
+
+
+@mixin leandro-bg() {
+  background-image: url(../src/img/bg/leandro.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@mixin ceaes-bg() {
+  background-image: url(../src/img/bg/ceaes.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

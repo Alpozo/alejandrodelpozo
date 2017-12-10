@@ -1,0 +1,95 @@
+.doc24-button {
+	margin-top:24px;
+	display:inline-block;
+
+	a {
+	font-size: 18px;
+	font-weight:400;
+	padding:8px 32px;
+	border: 2px solid $white;
+	@include transition(0.2s);
+	color:white;
+	
+	}
+}	
+
+
+.doc24-button:hover {
+	a {
+	
+		cursor: pointer;
+		@include transition(0.2s);
+		background-color:$white;
+		color: #00CEAA;
+
+	}
+
+
+}
+
+
+.masseda-button {
+	margin-top:16px;
+	display:inline-block;
+
+	a {
+	display:inline-block;
+	font-size: 18px;
+	font-weight:400;
+	padding:8px 32px;
+	border: 2px solid #F7CE3C;
+	@include transition(0.2s);
+	color:#F7CE3C;
+	
+	}
+}	
+
+
+.masseda-button:hover {
+	a {
+	
+		cursor: pointer;
+		@include transition(0.2s);
+		background-color:$white;
+		border:2px solid $white;
+		color: #007481;
+	}
+
+
+}
+
+
+
+.vered-button {
+	margin-top:24px;
+	margin-bottom:8px;
+	display:inline-block;
+
+	a {
+	font-size: 18px;
+	font-weight:400;
+	padding:8px 32px;
+	border: 2px solid white;
+	@include transition(0.2s);
+	color:white;
+	
+	}
+}	
+
+
+.vered-button:hover {
+	a {
+	
+		cursor: pointer;
+		@include transition(0.2s);
+		background-color:$white;
+		border:2px solid $white;
+		color: rgb(255,82,84);
+	}
+
+
+}
+
+
+
+

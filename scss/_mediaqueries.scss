@@ -1,0 +1,334 @@
+@media screen and (min-width:10px) and (max-width:768px) {
+
+
+.main-wrapper {
+	padding-left:0px;
+
+}
+
+.only-txt-wrapper {
+	width:95%;
+	padding:0px 0px;
+}
+
+header {
+
+height:auto;
+padding:64px 0px;
+
+.icons {
+	color:$white;
+	margin-top:24px;
+	cursor:pointer;
+	margin:0px auto;
+	width:100%;
+	margin-top:16px;
+	position: relative;
+  	text-align:center;
+
+	a {
+		float: none;
+		display:inline-block;
+		margin-bottom: 8px;
+		margin-right: 8px;
+		width: 110px;
+
+		p, i {
+			display: inline-block;
+		}
+
+		i {
+			margin-right: 8px;
+		}
+	}
+
+	a:hover {
+		background-color:$pink;
+		color: $main-brand;
+	}
+}
+
+.txt {
+
+	text-align:center;
+	width: 100%;
+	position:relative;
+	top:0px;
+	z-index: 99;
+
+	img {
+		border-radius:50%;
+		box-shadow: 0 0px 60px 0px rgba(0,0,0,0.5);
+		display: block;
+		width:200px;
+		margin:16px auto;
+	}
+}
+
+.img {
+	display:none;
+
+	img {
+		max-height: 80vh;
+		position:absolute;
+		bottom: 0px;
+		left: 50%;
+		opacity: 0.8;
+		
+	}
+}
+}
+
+
+.mybag {
+	background-color:#121540;
+	background-image: url("../images/light.png");
+	height:auto;
+	padding:150px 0px;
+	h6 {
+		margin-top: 32px;
+	}
+
+	.main-toolkit {
+		width: 80%;
+		margin:32px auto;
+		display: block;
+		flex-wrap: wrap;
+		text-align: center;
+
+
+		.tool-box {
+			margin:2%;
+			width: 42%;
+			display: inline-block;
+			height: auto;
+			background-color:#181951;
+			border-radius:16px;
+			padding:0px;
+			
+				
+					img {
+						padding:15%;;
+						width: 70%;
+						
+
+					}
+					
+
+		}
+
+		.tool-box:hover {
+			
+			@include transition(0.3s);
+			box-shadow: 0 0px 0px 6px rgba(255,0,135,1);
+
+			position:relative;
+			z-index: 9999;
+
+
+
+			
+		}
+		
+
+	}
+
+	.others-toolkit {
+		width: 80%;
+		margin:32px auto;
+		display: block;
+		text-align: center;
+		
+		.tool-box {
+			display: inline-block;
+			margin:2%;
+			width:27% ;
+			height: auto;
+			background-color:#181951;
+			border-radius:16px;
+			padding:0px;
+	
+				
+					img {
+						padding:15%;;
+						width: 70%;
+
+					}
+					
+
+		}
+
+		.tool-box:hover {
+			box-shadow: 0 0px 0px 6px rgba(87,26,214,1);
+			@include transition(0.2s);
+			
+		}
+		
+
+	}
+
+
+}
+
+
+.goodbye {
+	h2 {
+		font-size: 27px;
+	}
+}
+
+
+
+
+.doc24 {
+	@include doc24-gradient();
+	
+	p {
+		max-width: 800px;
+	}
+	h3 {
+		margin-bottom: 16px;
+	}
+
+	h4 {
+	
+		margin-bottom: 24px;
+	}
+	.port-wrap {
+		max-width: 95%;
+		margin:0px auto;
+		padding: 150px 0px;
+	}
+	.slider {
+		max-width: 960px;
+		margin: 24px auto;
+	}
+
+	img {
+		width: 50%;
+	}
+}
+
+
+.vered {
+	@include vered-gradient();
+	overflow:hidden;
+	width:100%;
+	
+	p {
+		max-width: 800px;
+	}
+	h3 {
+		margin-bottom: 0px;
+	}
+
+	.port-wrap {
+		max-width: 95%;
+		margin:0px auto;
+		padding: 150px 0px;
+	}
+	.slider {
+
+		max-width: 960px;
+		margin: 24px auto;
+		box-shadow: 0 0px 60px 0px rgba(0,0,0,0.3);
+
+	}
+
+	img {
+		width: 150%;
+		position:relative;
+		left: 0px;
+		top: 20px;
+	}
+}
+
+
+
+
+.morestuff {
+	background-color:#121540;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+	width:100%;
+
+	.morestuff-wrap {
+		max-width: 960px;
+		padding: 150px 0px;
+		margin:0px auto;
+		text-align: center;
+
+	}
+
+	h3 {
+		margin-bottom: 32px;
+		text-align: center;
+	}
+
+	.morestuff-item {
+
+		background-color:#181951;
+		display: inline-block;
+		width: 42%;
+		border-radius:4%;
+		height:90px;
+		margin:0px 0px;
+		position:relative;
+		z-index: 99;
+		box-shadow: 0 0px 60px 0px rgba(0,0,0,0.3);
+
+		div {
+			padding:16px;
+			color: $white;
+		}
+	}
+
+
+	.morestuff-item:hover {
+	box-shadow: 0 0px 0px 6px rgba(255,0,135,1);
+	position:relative;
+	z-index:99999;
+
+	div {
+		display: normal;
+	}
+	}
+	
+
+
+}
+
+.masseda {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007481+0,007481+45,f7ce3c+45,f7ce3c+100,207cca+100,1e5799+100 */
+background: #007481; /* Old browsers */
+background: -moz-linear-gradient(top, #007481 0%, #007481 70%, #f7ce3c 70%, #f7ce3c 100%, #207cca 100%, #1e5799 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #007481 0%,#007481 70%,#f7ce3c 70%,#f7ce3c 100%,#207cca 100%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #007481 0%,#007481 70%,#f7ce3c 70%,#f7ce3c 100%,#207cca 100%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007481', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+
+	
+	p {
+		max-width: 800px;
+	}
+
+	.port-wrap {
+		max-width: 95%;
+		margin:0px auto;
+		padding: 150px 0px;
+	}
+	.slider {
+		max-width: 960px;
+		margin: 24px auto;
+		box-shadow: 0 0px 60px 0px rgba(0,0,0,0.2);
+	}
+
+	img {
+		width: 50%;
+	}
+}
+
+
+
+
+}
+
+
