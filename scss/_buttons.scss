@@ -1,7 +1,8 @@
 .doc24-button {
 	margin-top:24px;
 	display:inline-block;
-
+	@include unselectable;
+	
 	a {
 	font-size: 18px;
 	font-weight:400;
@@ -16,7 +17,7 @@
 
 .doc24-button:hover {
 	a {
-	
+		  @include transition(0.5s);
 		cursor: pointer;
 		@include transition(0.2s);
 		background-color:$white;
@@ -31,7 +32,7 @@
 .masseda-button {
 	margin-top:16px;
 	display:inline-block;
-
+	@include unselectable;
 	a {
 	display:inline-block;
 	font-size: 18px;
@@ -47,7 +48,7 @@
 
 .masseda-button:hover {
 	a {
-	
+		  @include transition(0.5s);
 		cursor: pointer;
 		@include transition(0.2s);
 		background-color:$white;
@@ -64,7 +65,7 @@
 	margin-top:24px;
 	margin-bottom:8px;
 	display:inline-block;
-
+	@include unselectable;
 	a {
 	font-size: 18px;
 	font-weight:400;
@@ -79,7 +80,7 @@
 
 .vered-button:hover {
 	a {
-	
+		  @include transition(0.5s);
 		cursor: pointer;
 		@include transition(0.2s);
 		background-color:$white;

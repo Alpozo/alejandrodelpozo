@@ -31,18 +31,12 @@ $white: #F2F4F8;
 // Gradients
 @mixin main-gradient() {
 
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#421b86+0,2d1176+100 */
-background: rgb(66,27,134); /* Old browsers */
-background-image:url("../images/church2.png");
-background-image:url("../images/church2.png"), -moz-linear-gradient(-45deg, rgba(66,27,134,1) 0%, rgba(45,17,118,1) 100%); /* FF3.6-15 */
-background-image:url("../images/church2.png"), -webkit-linear-gradient(-45deg, rgba(66,27,134,1) 0%,rgba(45,17,118,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background-image:url("../images/church2.png"), linear-gradient(135deg, rgba(66,27,134,1) 0%,rgba(45,17,118,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#421b86', endColorstr='#2d1176',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    
-
-
-
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4e2398+0,321b7a+47 */
+background: #4e2398; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #4e2398 0%, #321b7a 47%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #4e2398 0%,#321b7a 47%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #4e2398 0%,#321b7a 47%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e2398', endColorstr='#321b7a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 @mixin doc24-gradient() {
@@ -60,16 +54,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#421b86', end
 
 @mixin skills-gradient() {
 
-    background: rgb(99,63,245);
-    /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(99,63,245,1) 0%, rgba(121,98,239,1) 51%, rgba(99,63,245,1) 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(99,63,245,1) 0%,rgba(121,98,239,1) 51%,rgba(99,63,245,1) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(99,63,245,1) 0%,rgba(121,98,239,1) 51%,rgba(99,63,245,1) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#633ff5', endColorstr='#633ff5',GradientType=0 );
-    /* IE6-9 */
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#421b86+0,2d1176+100 */
+background: rgb(66,27,134); /* Old browsers */
+background-image:url("../images/church2.png");
+background-image:url("../images/church2.png"), -moz-linear-gradient(-45deg, rgba(66,27,134,1) 0%, rgba(45,17,118,1) 100%); /* FF3.6-15 */
+background-image:url("../images/church2.png"), -webkit-linear-gradient(-45deg, rgba(66,27,134,1) 0%,rgba(45,17,118,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background-image:url("../images/church2.png"), linear-gradient(135deg, rgba(66,27,134,1) 0%,rgba(45,17,118,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#421b86', endColorstr='#2d1176',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+
 }
 
 @mixin vered-gradient() {

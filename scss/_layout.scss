@@ -27,7 +27,7 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 .icons {
 	color:$white;
 	margin-top:24px;
-	
+	@include unselectable;
 	cursor:pointer;
 	a {
 		display: block;
@@ -51,6 +51,7 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 	a:hover {
 		background-color:$pink;
 		color: $main-brand;
+		  @include transition(0.3s);
 	}
 
 	a:focus {
@@ -77,7 +78,8 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 		position:absolute;
 		bottom: 0px;
 		left: 50%;
-		opacity: 0.9;
+		opacity: 1;
+
 		
 	}
 }
@@ -85,7 +87,9 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 
 .details {
 	height:auto;
-	background: linear-gradient(180deg, #4D269D 0%, #2D1176 100%);
+	// background: linear-gradient(180deg, #4D269D 0%, #2D1176 100%);
+	@include skills-gradient();
+
 	.only-txt-wrapper {
 		padding: 150px 0px 240px 0px;
 		p {
@@ -109,6 +113,7 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 	}
 
 	.extra-botton {
+		@include unselectable;
 		background-color: none;
 		position:absolute;
 		width:250px;
@@ -117,6 +122,7 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 		margin-top: 32px;
 		color: $pink;
 		border: 3px solid $pink;
+		@include transition(0.5s);
 	
 
 		div {
@@ -134,11 +140,17 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 	}
 	
 	.extra-botton-hide-care{
-		background-color:$main-brand;
+		@include skills-gradient();
 		color:$pink;
+
+		i {
+			margin-right: 16px;
+		}
 	}
 	.extra-botton-hide-care:hover {
+		background-image:none;
 		background-color:$pink;
+
 		color:$white;
 	}
 }
@@ -146,6 +158,11 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 .extra-botton-on {
 	cursor: pointer;
 	background-color:none;
+	@include transition(0.5s);
+
+	i {
+		margin-right: 16px;
+	}
 	
 }
 
@@ -176,9 +193,10 @@ background-image: url("../images/light.png");
 			width: 150px;
 			height: 150px;
 			background-color:#181951;
-
+			box-shadow: 0 0px 60px 0px rgba(0,0,0,0.2);
 			border-radius:16px;
 			padding:0px;
+			@include unselectable;
 			
 				
 					img {
@@ -222,7 +240,8 @@ background-image: url("../images/light.png");
 			background-color:#181951;
 			border-radius:16px;
 			padding:0px;
-	
+			@include unselectable;
+			box-shadow: 0 0px 60px 0px rgba(0,0,0,0.2);
 				
 					img {
 						padding:15%;;
@@ -401,6 +420,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
 
 	.morestuff-item:hover {
 	box-shadow: 0 0px 0px 6px rgba(255,0,135,1);
+	  @include transition(0.5s);
 
 	div {
 		display: normal;
@@ -409,4 +429,9 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
 	
 
 
+}
+
+.flip {
+  transform: rotate(-180deg);
+  @include transition(0.5s);
 }

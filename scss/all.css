@@ -73,6 +73,12 @@ h1 {
   line-height: 1.1;
   font-weight: bolder;
   letter-spacing: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   cursor: default; }
 
 h2 {
@@ -80,12 +86,24 @@ h2 {
   line-height: 1.1;
   font-weight: 100;
   letter-spacing: -1px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   cursor: default; }
 
 h3 {
   font-size: 80px;
   line-height: 0.9;
   font-weight: bolder;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   cursor: default; }
 
 h4 {
@@ -118,6 +136,12 @@ p {
     line-height: 1.1;
     font-weight: bolder;
     letter-spacing: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     cursor: default; }
 
   h2 {
@@ -125,12 +149,24 @@ p {
     line-height: 1.1;
     font-weight: 100;
     letter-spacing: -1px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     cursor: default; }
 
   h3 {
     font-size: 50px;
     line-height: 0.9;
     font-weight: bolder;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     cursor: default; }
 
   h4 {
@@ -164,27 +200,22 @@ header {
   overflow: hidden;
   position: relative;
   z-index: 99;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4e2398+0,321b7a+47 */
-  background: #4e2398;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#421b86+0,2d1176+100 */
+  background: #421b86;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #4e2398 0%, #321b7a 47%);
+  background-image: url("../images/church2.png");
+  background-image: url("../images/church2.png"), -moz-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #4e2398 0%, #321b7a 47%);
+  background-image: url("../images/church2.png"), -webkit-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #4e2398 0%, #321b7a 47%);
+  background-image: url("../images/church2.png"), linear-gradient(135deg, #421b86 0%, #2d1176 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e2398', endColorstr='#321b7a',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#421b86', endColorstr='#2d1176',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   box-shadow: 0 15px 150px 0 rgba(0, 0, 0, 0.5); }
   header .icons {
     color: #F2F4F8;
     margin-top: 24px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     cursor: pointer; }
     header .icons a {
       display: block;
@@ -201,12 +232,7 @@ header {
         margin-right: 8px; }
     header .icons a:hover {
       background-color: #FF0087;
-      color: #571AD6;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; }
+      color: #571AD6; }
     header .icons a:focus {
       background-color: #571AD6; }
   header .txt {
@@ -223,22 +249,11 @@ header {
       position: absolute;
       bottom: 0px;
       left: 50%;
-      opacity: 1; }
+      opacity: 0.9; }
 
 .details {
   height: auto;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#421b86+0,2d1176+100 */
-  background: #421b86;
-  /* Old browsers */
-  background-image: url("../images/church2.png");
-  background-image: url("../images/church2.png"), -moz-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
-  /* FF3.6-15 */
-  background-image: url("../images/church2.png"), -webkit-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background-image: url("../images/church2.png"), linear-gradient(135deg, #421b86 0%, #2d1176 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#421b86', endColorstr='#2d1176',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
+  background: linear-gradient(180deg, #4D269D 0%, #2D1176 100%); }
   .details .only-txt-wrapper {
     padding: 150px 0px 240px 0px; }
     .details .only-txt-wrapper p {
@@ -254,12 +269,6 @@ header {
       .details .only-txt-wrapper ul li:hover {
         opacity: 1; }
   .details .extra-botton {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     background-color: none;
     position: absolute;
     width: 250px;
@@ -267,48 +276,22 @@ header {
     font-size: 18px;
     margin-top: 32px;
     color: #FF0087;
-    border: 3px solid #FF0087;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s; }
+    border: 3px solid #FF0087; }
     .details .extra-botton div {
       padding: 20px;
       font-weight: 800; }
     .details .extra-botton .extra-botton-hide {
       display: none; }
   .details .extra-botton-hide-care {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#421b86+0,2d1176+100 */
-    background: #421b86;
-    /* Old browsers */
-    background-image: url("../images/church2.png");
-    background-image: url("../images/church2.png"), -moz-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
-    /* FF3.6-15 */
-    background-image: url("../images/church2.png"), -webkit-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background-image: url("../images/church2.png"), linear-gradient(135deg, #421b86 0%, #2d1176 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#421b86', endColorstr='#2d1176',GradientType=1 );
-    /* IE6-9 fallback on horizontal gradient */
+    background-color: #571AD6;
     color: #FF0087; }
-    .details .extra-botton-hide-care i {
-      margin-right: 16px; }
   .details .extra-botton-hide-care:hover {
-    background-image: none;
     background-color: #FF0087;
     color: #F2F4F8; }
 
 .extra-botton-on {
   cursor: pointer;
-  background-color: none;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
-  .extra-botton-on i {
-    margin-right: 16px; }
+  background-color: none; }
 
 .extra-botton-on:hover {
   background-color: #FF0087;
@@ -331,15 +314,8 @@ header {
       width: 150px;
       height: 150px;
       background-color: #181951;
-      box-shadow: 0 0px 60px 0px rgba(0, 0, 0, 0.2);
       border-radius: 16px;
-      padding: 0px;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none; }
+      padding: 0px; }
       .mybag .main-toolkit .tool-box img {
         padding: 15%;
         width: 70%; }
@@ -364,14 +340,7 @@ header {
       height: 100px;
       background-color: #181951;
       border-radius: 16px;
-      padding: 0px;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      box-shadow: 0 0px 60px 0px rgba(0, 0, 0, 0.2); }
+      padding: 0px; }
       .mybag .others-toolkit .tool-box img {
         padding: 15%;
         width: 70%; }
@@ -471,16 +440,17 @@ header {
     left: 100px; }
 
 .goodbye {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4e2398+0,321b7a+47 */
-  background: #4e2398;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#421b86+0,2d1176+100 */
+  background: #421b86;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #4e2398 0%, #321b7a 47%);
+  background-image: url("../images/church2.png");
+  background-image: url("../images/church2.png"), -moz-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #4e2398 0%, #321b7a 47%);
+  background-image: url("../images/church2.png"), -webkit-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #4e2398 0%, #321b7a 47%);
+  background-image: url("../images/church2.png"), linear-gradient(135deg, #421b86 0%, #2d1176 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e2398', endColorstr='#321b7a',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#421b86', endColorstr='#2d1176',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
   .goodbye .goodbye-wrap {
     padding: 150px 0px;
@@ -520,32 +490,13 @@ header {
       padding: 32px;
       color: #F2F4F8; }
   .morestuff .morestuff-item:hover {
-    box-shadow: 0 0px 0px 6px #ff0087;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s; }
+    box-shadow: 0 0px 0px 6px #ff0087; }
     .morestuff .morestuff-item:hover div {
       display: normal; }
 
-.flip {
-  transform: rotate(-180deg);
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
-
 .doc24-button {
   margin-top: 24px;
-  display: inline-block;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+  display: inline-block; }
   .doc24-button a {
     font-size: 18px;
     font-weight: 400;
@@ -559,11 +510,6 @@ header {
     color: white; }
 
 .doc24-button:hover a {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
   cursor: pointer;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -575,13 +521,7 @@ header {
 
 .masseda-button {
   margin-top: 16px;
-  display: inline-block;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+  display: inline-block; }
   .masseda-button a {
     display: inline-block;
     font-size: 18px;
@@ -596,11 +536,6 @@ header {
     color: #F7CE3C; }
 
 .masseda-button:hover a {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
   cursor: pointer;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -614,13 +549,7 @@ header {
 .vered-button {
   margin-top: 24px;
   margin-bottom: 8px;
-  display: inline-block;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+  display: inline-block; }
   .vered-button a {
     font-size: 18px;
     font-weight: 400;
@@ -634,11 +563,6 @@ header {
     color: white; }
 
 .vered-button:hover a {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
   cursor: pointer;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -879,4 +803,4 @@ header {
     .masseda img {
       width: 50%; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=all.css.map */
