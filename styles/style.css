@@ -505,7 +505,10 @@ header {
     text-align: center; }
   .morestuff h3 {
     margin-bottom: 32px;
-    text-align: center; }
+    text-align: center;
+    line-height: 32px; }
+  .morestuff p {
+    line-height: 16px; }
   .morestuff .morestuff-item {
     background-color: #181951;
     display: inline-block;
@@ -539,6 +542,7 @@ header {
 
 .doc24-button {
   margin-top: 24px;
+  margin-bottom: 8px;
   display: inline-block;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -762,6 +766,8 @@ header {
 
   .goodbye h2 {
     font-size: 27px; }
+  .goodbye .goodbye-wrap {
+    max-width: 95%; }
 
   .doc24 {
     background: #50e3c2;
