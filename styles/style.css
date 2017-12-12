@@ -236,12 +236,7 @@ header {
         margin-right: 8px; }
     header .icons a:hover {
       background-color: #FF0087;
-      color: #571AD6;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; }
+      color: #571AD6; }
     header .icons a:focus {
       background-color: #571AD6; }
   header .txt {
@@ -582,7 +577,12 @@ header {
 
 .doc24-button a {
   border: 2px solid #F2F4F8;
-  color: white; }
+  color: white;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s; }
 
 .doc24-button:hover a {
   background-color: #F2F4F8;

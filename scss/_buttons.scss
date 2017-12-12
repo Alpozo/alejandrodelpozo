@@ -10,7 +10,6 @@
 	font-size: 18px;
 	font-weight:400;
 	padding:8px 32px;
-
 	@include transition(0.2s);
 
 	}
@@ -21,6 +20,7 @@
 	a {
 	border: 2px solid $white;
 	color:white;
+	@include transition(0.2s);
 	}
 }	
 
