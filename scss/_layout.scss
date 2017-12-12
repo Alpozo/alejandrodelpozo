@@ -31,6 +31,34 @@ z-index:99;
 @include main-gradient();
 box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 
+#contact-button {
+	width:50px;
+	height:50px;
+	padding: 8px;
+	background-color:$pink;
+	color: white;
+	position:fixed;
+	top:0px;
+	right:0px;
+	z-index:9999999;
+	opacity:1;
+	 @include transition(0.5s);
+	i {
+		width: 100%;
+		margin-top: 10px;
+		text-align: center;
+
+	}
+}
+
+#contact-button:hover {
+	@include transition(0.5s);
+	background-color:$white;
+	color:$main-brand;
+	box-shadow: 0 15px 60px 0 rgba(0,0,0,0.5);
+
+	
+}
 .icons {
 	color:$white;
 	margin-top:24px;
@@ -147,7 +175,7 @@ box-shadow: 0 15px 150px 0 rgba(0,0,0,0.5);
 	}
 	
 	.extra-botton-hide-care{
-		@include skills-gradient();
+		background-color:transparent;
 		color:$pink;
 
 		i {
@@ -201,7 +229,7 @@ background-image: url("../images/light.png");
 			height: 150px;
 			background-color:#181951;
 			box-shadow: 0 0px 60px 0px rgba(0,0,0,0.2);
-			border-radius:16px;
+			border-radius:0px;
 			padding:0px;
 			@include unselectable;
 			
@@ -245,7 +273,7 @@ background-image: url("../images/light.png");
 			width: 100px;
 			height: 100px;
 			background-color:#181951;
-			border-radius:16px;
+			border-radius:0px;
 			padding:0px;
 			@include unselectable;
 			box-shadow: 0 0px 60px 0px rgba(0,0,0,0.2);
@@ -417,7 +445,7 @@ background-image: url("../images/light.png");
 
 		display: inline-block;
 		width: 48%;
-		border-radius:8px;
+
 		height:auto;
 		margin:0px 0.5%;
 		position:relative;

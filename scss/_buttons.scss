@@ -1,48 +1,41 @@
-.doc24-button {
+.button-general {
 	margin-top:24px;
 	margin-bottom:8px;
-
 	display:inline-block;
 	@include unselectable;
-	
+
 	a {
+	cursor: pointer;
 	width: 200px;
 	font-size: 18px;
 	font-weight:400;
 	padding:8px 32px;
-	border: 2px solid $white;
+
 	@include transition(0.2s);
+
+	}
+}
+
+
+.doc24-button {
+	a {
+	border: 2px solid $white;
 	color:white;
-	
 	}
 }	
 
 
 .doc24-button:hover {
 	a {
-		 @include transition(0.5s);
-		cursor: pointer;
-		@include transition(0.2s);
 		background-color:$white;
 		color: #00CEAA;
-
 	}
-
-
 }
 
 
 .masseda-button {
-	margin-top:16px;
-	display:inline-block;
-	@include unselectable;
 	a {
-	display:inline-block;
-	font-size: 18px;
-	font-weight:400;
-	padding:8px 32px;
 	border: 2px solid #F7CE3C;
-	@include transition(0.2s);
 	color:#F7CE3C;
 	
 	}
@@ -51,9 +44,6 @@
 
 .masseda-button:hover {
 	a {
-		  @include transition(0.5s);
-		cursor: pointer;
-		@include transition(0.2s);
 		background-color:$white;
 		border:2px solid $white;
 		color: #007481;
@@ -65,27 +55,15 @@
 
 
 .vered-button {
-	margin-top:24px;
-	margin-bottom:8px;
-	display:inline-block;
-	@include unselectable;
 	a {
-	font-size: 18px;
-	font-weight:400;
-	padding:8px 32px;
 	border: 2px solid white;
-	@include transition(0.2s);
 	color:white;
-	
 	}
 }	
 
 
 .vered-button:hover {
 	a {
-		  @include transition(0.5s);
-		cursor: pointer;
-		@include transition(0.2s);
 		background-color:$white;
 		border:2px solid $white;
 		color: rgb(255,82,84);
@@ -93,6 +71,7 @@
 
 
 }
+
 
 
 

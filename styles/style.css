@@ -182,6 +182,35 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e2398', endColorstr='#321b7a',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   box-shadow: 0 15px 150px 0 rgba(0, 0, 0, 0.5); }
+  header #contact-button {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    background-color: #FF0087;
+    color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 9999999;
+    opacity: 1;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    header #contact-button i {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center; }
+  header #contact-button:hover {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #F2F4F8;
+    color: #571AD6;
+    box-shadow: 0 15px 60px 0 rgba(0, 0, 0, 0.5); }
   header .icons {
     color: #F2F4F8;
     margin-top: 24px;
@@ -285,18 +314,7 @@ header {
     .details .extra-botton .extra-botton-hide {
       display: none; }
   .details .extra-botton-hide-care {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#421b86+0,2d1176+100 */
-    background: #421b86;
-    /* Old browsers */
-    background-image: url("../images/church2.png");
-    background-image: url("../images/church2.png"), -moz-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
-    /* FF3.6-15 */
-    background-image: url("../images/church2.png"), -webkit-linear-gradient(-45deg, #421b86 0%, #2d1176 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background-image: url("../images/church2.png"), linear-gradient(135deg, #421b86 0%, #2d1176 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#421b86', endColorstr='#2d1176',GradientType=1 );
-    /* IE6-9 fallback on horizontal gradient */
+    background-color: transparent;
     color: #FF0087; }
     .details .extra-botton-hide-care i {
       margin-right: 16px; }
@@ -338,7 +356,7 @@ header {
       height: 150px;
       background-color: #181951;
       box-shadow: 0 0px 60px 0px rgba(0, 0, 0, 0.2);
-      border-radius: 16px;
+      border-radius: 0px;
       padding: 0px;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
@@ -369,7 +387,7 @@ header {
       width: 100px;
       height: 100px;
       background-color: #181951;
-      border-radius: 16px;
+      border-radius: 0px;
       padding: 0px;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
@@ -514,7 +532,6 @@ header {
     background-color: #181951;
     display: inline-block;
     width: 48%;
-    border-radius: 8px;
     height: auto;
     margin: 0px 0.5%;
     position: relative;
@@ -541,7 +558,7 @@ header {
   -o-transition: 0.5s;
   transition: 0.5s; }
 
-.doc24-button {
+.button-general {
   margin-top: 24px;
   margin-bottom: 8px;
   display: inline-block;
@@ -551,106 +568,40 @@ header {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .doc24-button a {
+  .button-general a {
+    cursor: pointer;
     width: 200px;
     font-size: 18px;
     font-weight: 400;
     padding: 8px 32px;
-    border: 2px solid #F2F4F8;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
-    transition: 0.2s;
-    color: white; }
+    transition: 0.2s; }
+
+.doc24-button a {
+  border: 2px solid #F2F4F8;
+  color: white; }
 
 .doc24-button:hover a {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  cursor: pointer;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
   background-color: #F2F4F8;
   color: #00CEAA; }
 
-.masseda-button {
-  margin-top: 16px;
-  display: inline-block;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-  .masseda-button a {
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 8px 32px;
-    border: 2px solid #F7CE3C;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
-    color: #F7CE3C; }
+.masseda-button a {
+  border: 2px solid #F7CE3C;
+  color: #F7CE3C; }
 
 .masseda-button:hover a {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  cursor: pointer;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
   background-color: #F2F4F8;
   border: 2px solid #F2F4F8;
   color: #007481; }
 
-.vered-button {
-  margin-top: 24px;
-  margin-bottom: 8px;
-  display: inline-block;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-  .vered-button a {
-    font-size: 18px;
-    font-weight: 400;
-    padding: 8px 32px;
-    border: 2px solid white;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
-    color: white; }
+.vered-button a {
+  border: 2px solid white;
+  color: white; }
 
 .vered-button:hover a {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  cursor: pointer;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
   background-color: #F2F4F8;
   border: 2px solid #F2F4F8;
   color: #ff5254; }
@@ -666,6 +617,8 @@ header {
   header {
     height: auto;
     padding: 64px 0px; }
+    header #contact-button {
+      position: absolute; }
     header .icons {
       color: #F2F4F8;
       margin-top: 24px;
