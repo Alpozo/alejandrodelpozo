@@ -146,17 +146,23 @@ p {
   h6 {
     font-size: 32px;
     font-weight: 800; } }
+html {
+  width: 100%;
+  overflow-x: hidden; }
+
 .main-wrapper {
   width: 100%;
   padding-left: 32px;
   max-width: 1200px;
-  margin: 0px auto; }
+  margin: 0px auto;
+  overflow: hidden; }
 
 .only-txt-wrapper {
   width: auto;
   padding: 0px 32px;
   max-width: 800px;
-  margin: 0px auto; }
+  margin: 0px auto;
+  overflow: hidden; }
 
 header {
   height: 100vh;
@@ -765,7 +771,8 @@ header {
         transition: 0.2s; }
 
   .goodbye h2 {
-    font-size: 27px; }
+    font-size: 16px;
+    letter-spacing: 2px; }
   .goodbye .goodbye-wrap {
     max-width: 95%; }
 
@@ -847,6 +854,7 @@ header {
       border-radius: 4%;
       height: 90px;
       margin: 0px 0px;
+      font-size: 20px;
       position: relative;
       z-index: 99;
       box-shadow: 0 0px 60px 0px rgba(0, 0, 0, 0.3); }
