@@ -1,10 +1,12 @@
 .doc24-button {
 	margin-top:24px;
 	margin-bottom:8px;
+
 	display:inline-block;
 	@include unselectable;
 	
 	a {
+	width: 200px;
 	font-size: 18px;
 	font-weight:400;
 	padding:8px 32px;
@@ -18,7 +20,7 @@
 
 .doc24-button:hover {
 	a {
-		  @include transition(0.5s);
+		 @include transition(0.5s);
 		cursor: pointer;
 		@include transition(0.2s);
 		background-color:$white;

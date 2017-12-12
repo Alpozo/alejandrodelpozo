@@ -40,16 +40,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e2398', end
 }
 
 @mixin doc24-gradient() {
-    background: rgb(80,227,194);
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(80,227,194,1) 0%, rgba(80,198,223,1) 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(80,227,194,1) 0%,rgba(80,198,223,1) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(80,227,194,1) 0%,rgba(80,198,223,1) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#50e3c2', endColorstr='#50c6df',GradientType=1 );
-    /* IE6-9 fallback on horizontal gradient */
+    background: url(../src/img/bg/doc24-bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    // /* Old browsers */
+    // background: -moz-linear-gradient(-45deg, rgba(80,227,194,1) 0%, rgba(80,198,223,1) 100%);
+    // /* FF3.6-15 */
+    // background: -webkit-linear-gradient(-45deg, rgba(80,227,194,1) 0%,rgba(80,198,223,1) 100%);
+    // /* Chrome10-25,Safari5.1-6 */
+    // background: linear-gradient(135deg, rgba(80,227,194,1) 0%,rgba(80,198,223,1) 100%);
+    // /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#50e3c2', endColorstr='#50c6df',GradientType=1 );
+    // /* IE6-9 fallback on horizontal gradient */
 }
 
 @mixin skills-gradient() {

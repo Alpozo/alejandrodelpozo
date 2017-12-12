@@ -190,13 +190,15 @@ padding:64px 0px;
 	
 	p {
 		max-width: 800px;
+		orphans: 3; 
+		widows: 3;
 	}
 	h3 {
-		margin-bottom: 16px;
+		margin-bottom: 0px;
 	}
 
 	h4 {
-	
+		font-size: 24px;
 		margin-bottom: 24px;
 	}
 	.port-wrap {
