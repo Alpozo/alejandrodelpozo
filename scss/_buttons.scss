@@ -3,6 +3,8 @@
 	margin-bottom:8px;
 	display:inline-block;
 	@include unselectable;
+	position:relative;
+	z-index:99999;
 
 	a {
 	cursor: pointer;
