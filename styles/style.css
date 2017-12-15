@@ -439,6 +439,9 @@ header {
   /* IE6-9 */ }
   .masseda p {
     max-width: 800px; }
+    .masseda p b {
+      font-weight: bolder;
+      color: #f7ce3c; }
   .masseda .port-wrap {
     max-width: 960px;
     margin: 0px auto;
